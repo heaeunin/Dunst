@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/> 
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+    <script src="./js/jquery-1.12.4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+
+    <title>Dunst</title>
+</head>
+<body>
+    <div id="wrap">
+        <section class="section banner">
+            <div class="conatiner">
+                <!-- 헤더 영역 -->
+                <header class="header-area">
+                    <!-- 햄버거 버튼 -->
+                    <a href="#none" id="hamburger">
+                        <span></span><span></span><span></span>
+                    </a>
+                    <!-- 메인 메뉴 -->
+                    <ul class="main-menu">
+                        <li data-alt="tab1">
+                            <a href="#none" class="menu">WOMEN</a>
+                        </li>
+                        <li data-alt="tab2">
+                            <a href="#none" class="menu">MEN</a>
+                        </li>
+                        <li data-alt="tab3">
+                            <a href="#none" class="menu">COLLECTION</a>
+                        </li>
+                        <li data-alt="tab4">
+                            <a href="#none" class="menu">ABOUT</a>
+                        </li>
+                    </ul>
+
+                    <!-- 로고 영역 -->
+                    <a href="#none" class="logo">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 117 37.2" style="enable-background:new 0 0 117 37.2;" xml:space="preserve"><g><path d="M0,36.6V0h7.7c3.6,0,6.5,0.4,8.7,1.1c2.3,0.7,4.4,1.9,6.2,3.6c3.8,3.4,5.7,8,5.7,13.6c0,5.6-2,10.2-5.9,13.6
+                            c-2,1.7-4,2.9-6.2,3.6c-2.1,0.7-5,1-8.6,1H0z M5.5,31.4H8c2.5,0,4.5-0.3,6.2-0.8c1.6-0.6,3.1-1.4,4.5-2.6c2.7-2.5,4.1-5.7,4.1-9.7
+                            c0-4-1.3-7.3-4-9.8c-2.4-2.2-6-3.3-10.7-3.3H5.5V31.4z"></path><path d="M39.4,13.5v13.2c0,3.8,1.5,5.7,4.5,5.7s4.5-1.9,4.5-5.7V13.5h5.3v13.4c0,1.9-0.2,3.5-0.7,4.8c-0.4,1.2-1.2,2.3-2.3,3.2
+                            c-1.8,1.6-4.1,2.3-6.9,2.3c-2.8,0-5-0.8-6.8-2.3c-1.1-1-1.9-2-2.3-3.2c-0.4-1.2-0.7-2.8-0.7-4.8V13.5H39.4z"></path><path d="M60.5,13.5h5.4v2.1c1.9-1.8,4-2.8,6.3-2.8c2.7,0,4.8,0.8,6.3,2.5c1.3,1.4,1.9,3.8,1.9,7v14.1H75V23.7
+                            c0-2.3-0.3-3.9-0.9-4.7c-0.6-0.9-1.7-1.3-3.4-1.3c-1.8,0-3,0.6-3.8,1.8c-0.7,1.2-1.1,3.2-1.1,6v11.1h-5.4V13.5z"></path><path d="M100.6,17.4l-4.4,2.3c-0.7-1.4-1.5-2.1-2.6-2.1c-0.5,0-0.9,0.2-1.3,0.5c-0.3,0.3-0.5,0.7-0.5,1.2c0,0.9,1,1.7,3.1,2.6
+                            c2.8,1.2,4.7,2.3,5.7,3.4c1,1,1.5,2.4,1.5,4.1c0,2.2-0.8,4.1-2.5,5.6c-1.6,1.4-3.5,2.1-5.8,2.1c-3.9,0-6.6-1.9-8.2-5.7l4.5-2.1
+                            c0.6,1,1.1,1.7,1.4,2.1c0.6,0.6,1.4,0.9,2.3,0.9c1.8,0,2.7-0.8,2.7-2.5c0-0.9-0.7-1.8-2.1-2.7c-1.1-0.5-2.2-1-3.2-1.6
+                            c-1.5-0.8-2.6-1.5-3.3-2.3c-0.8-1-1.2-2.2-1.2-3.7c0-2,0.7-3.7,2.1-5c1.4-1.3,3.1-2,5.1-2C97,12.9,99.2,14.4,100.6,17.4"></path><polygon points="112.8,18.5 112.8,36.6 107.5,36.6 107.5,18.5 105.2,18.5 105.2,13.5 107.5,13.5 107.5,5 112.8,5 112.8,13.5 
+                            117,13.5 117,18.5 	"></polygon></g></svg>
+                    </a>
+
+                    <!-- 오른쪽 아이콘 박스 -->
+                    <div class="icon-box">
+                        <div class="icon">SEARCH</div>
+                        <div class="icon">BAG</div>
+                    </div>
+                </header>
+                <!-- 서브메뉴 박스 -->
+                <div class="sub-menu-box">
+                    <ul id="tab1" class="sub-menu women">
+                        <li class="sub-menu-bar">
+                            <a href="#none">[PRE-ORDER]</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">OUTERWEAR</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">KNITWEAR</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">SHIRT & BLOUSE</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">TOP</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">DRESS & SKIRT</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">BOTTOM</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">ACC</a>
+                        </li>
+                    </ul>
+                    <ul id="tab2" class="sub-menu men">
+                        <li class="sub-menu-bar">
+                            <a href="#none">[PRE-ORDER]</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">OUTERWEAR</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">KNITWEAR</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">SHIRT</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">TOP</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">BOTTOM</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">ACC</a>
+                        </li>
+                    </ul>
+                    <ul id="tab3" class="sub-menu collection">
+                        <li class="sub-menu-bar">
+                            <a href="#none">22 FALL CAPSULE 'SPENCER'</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">22 FALL 'RE-EDITION'</a>
+                        </li>
+                    </ul>
+                    <ul id="tab4" class="sub-menu about">
+                        <li class="sub-menu-bar">
+                            <a href="#none">OUR STORY</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">STOCKIST</a>
+                        </li>
+                        <li class="sub-menu-bar">
+                            <a href="#none">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- 배너 슬라이드 스와이퍼 -->
+                <div class="slider-wrap swiper mySwiper">
+                    <div class="auto-slider swiper-wrapper">
+                        <div class="slider slide-1 swiper-slide"></div>
+                        <div class="slider slide-2 swiper-slide"></div>
+                        <div class="slider slide-3 swiper-slide"></div>
+                        <div class="slider slide-4 swiper-slide"></div>
+                        <div class="slider slide-5 swiper-slide"></div>
+                        <div class="slider slide-6 swiper-slide"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sec-1 -->
+        <section class="section sec-1">
+            <div class="container">
+                <div class="sec-1 con">
+                    <div class="txt-box left">
+                        <p class="main-txt">RE-EDITION</p>
+                        <p class="sub-txt">Timeless Classic & Modern Uniqueness</p>
+                        <p class="sub-txt1">The value of timeless classic and vintage naver fade away,<br>
+                            rather if glows through decades.<br>
+                            We unraveled these ‘briliant legacies ‘left to us solely in<br>
+                            Dunst way of modern uniqueness.</p>
+                        <p class="sub-txt2">Created by Dunst</p>  
+                    </div>        
+                    <div class="bg right swiper secondSwiper">
+                        <div class="bg slide swiper-wrapper">
+                            <div class="sec-1 slide-box swiper-slide">
+                                <img src="./img/sec-1-3.jpg" alt="">
+                            </div>
+                            <div class="sec-1 slide-box swiper-slide">
+                                <img src="./img/sec-1-6.jpg" alt="">
+                            </div>
+                            <div class="sec-1 slide-box swiper-slide">
+                                <img src="./img/sec-1-8.jpg" alt="">
+                            </div>
+                            <div class="sec-1 slide-box swiper-slide">
+                                <img src="./img/sec-1-1.jpg" alt="">
+                            <div>   
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- sec-2 -->
+        <section class="section sec-2">
+            <div class="container">
+                <div class="sec-2 txt-box">
+                    <p class="main-txt ourstory">OUR STORY</p>
+                    <p class="sub-txt info">
+                        For a wellness lifestyle of home leisure, reavel, sports.....<br>
+                        Sportism Casual collection of Dunst capsules.<br>
+                        Simple yet comfortable, and unique style coexist.<br>
+                        We developed all the processes of material, color, and artwork independently.
+                    </p>
+                </div>   
+            </div>
+        </section>
+
+        <!-- sec-3 -->
+        <section class="section sec-3">
+            <div class="container">
+                <div class="sec-3 bg">
+                    <p class="sub-txt sec-3">
+                        'DUNST' IS ENGAGED IN VARIOUS FIELDS SUCH AS FASHION, ARCHITECTURE, PHOTOGRAPHY, GRAPHIC AND CONTENT PLANNING.<br>
+                        IT IS A DESIGN STUDIO MADE BY YOUNG ARTISTS IN THEIR 20S AND 30S.<br>
+                        'DUNST', WHICH MEANS ’ IMMATERIAL’, GOES BEYOND THE BOUNDARIES OF GENDER,
+                        FOCUSING ON EMOTIONAL DESIGN IN HARMONY WITH CONTEMPORARY CULTURE AND
+                        MILLENNIAL GENERATION.<br>
+                        LOOKING FOR SPECIAL THINGS IN EVERYDAY LIFE, INSPIRED BY REAL STREET-SCENE,
+                        COMPLETE THE CLASSY STREETWEAR WITH RE-EDITING.<br>
+                        WE ARE READY TO STIMULATE YOUR EMOTIONS.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- sec-4 -->
+        <section class="section sec-4">
+            <div class="container">
+                <p class="sec-4 main-txt ">
+                    Dunst ‘22 Autumn Collection
+                </p>
+                <div class="canvas">
+                    <div class="carousel box">
+                        <div class="cell" data-aos="zoom-out" data-aos-duration="1000">
+                            <img src="./img/col-7.jpg" alt="">
+                        </div>
+                        <div class="cell" data-aos="zoom-out"  data-aos-duration="1500">
+                            <img src="./img/col-3.jpg" alt="">
+                        </div>
+                        <div class="cell" data-aos="zoom-out"  data-aos-duration="2000">
+                            <img src="./img/col-1.jpg" alt="">
+                        </div>
+                        <div class="cell" data-aos="zoom-out"  data-aos-duration="2500">
+                            <img src="./img/col-9.jpg" alt="">
+                        </div>
+                        <div class="cell" data-aos="zoom-out"  data-aos-duration="3000">
+                            <img src="./img/col-8.jpg" alt="">
+                        </div>
+                        <div class="cell" data-aos="zoom-out"  data-aos-duration="3500">
+                            <img src="./img/col-5.jpg" alt="">
+                        </div>
+                        <div class="cell" data-aos="zoom-out"  data-aos-duration="4000">
+                            <img src="./img/col-10.jpg" alt="">
+                        </div>
+                        <div class="cell" data-aos="zoom-out"  data-aos-duration="4000">
+                            <img src="./img/col-11.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+            </div>
+        </section>
+
+        <!-- sec-5 -->
+        <section class="section sec-5">
+            <div class="container">
+                <div class="footer-txt1">
+                    <a href="#none">@dunst_official</a>
+                    <div class="inst-box">
+                        <div class="con-box" data-aos="fade-up"
+                        data-aos-duration="3000">
+                            <img src="./img/inst-1.jpg" alt="">
+                        </div> 
+                        <div class="con-box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                                <img src="./img/inst-4.jpg" alt="">
+                        </div>
+                        <div class="con-box" data-aos="fade-up"
+                        data-aos-duration="3000">        
+                                <img src="./img/inst-2.jpg" alt="">      
+                        </div>
+                        <div class="con-box" data-aos="fade-down"
+                        data-aos-easing="linear"
+                        data-aos-duration="1500">
+                                <img src="./img/inst-3.jpg" alt="">
+                        </div>   
+                        <div class="con-box" data-aos="fade-up"
+                        data-aos-duration="3000">                     
+                                <img src="./img/inst-5.jpg" alt="">  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 푸터 영역 -->
+        <div class="footer">  
+            <div class="container">
+                <div class="footer-t">
+                    <div class="box inner-txt1">
+                        <p><a href="#none">CUSTOMER CENTER</a></p>
+                    </div>    
+                    <div class="box inner-txt2">
+                        <p><a href="#none">1644-9716</a></p>
+                        <p><a href="#none">MON-FRI10AM-5PM</a></p>
+                        <p><a href="#none">SAT,SUN,HOLIDAYCLOSED</a></p>
+                    </div>
+                    <div class="box inner-txt3">
+                        <p><a href="#none">10AM-5PM</a></p>
+                        <p><a href="#none">CLOSED</a></p>
+                    </div>
+                    <div class="box inner-txt4">
+                        <p><a href="#none">CTDOTS CORP | YOO JAEHYUK | </a></p>
+                        <p><a href="#none">06023 서울특별시 강남구 언주로 867 (신사동) 9층</a></p>
+                        <p><a href="#none">BUSINESS LICENSE 741-88-01923</a></p>
+                        <p><a href="#none">MAIL ORDER LICENSE NO. 제2021-서울강남-02323</a></p>
+                        <p><a href="#none">DUNSTONLINE@GMAIL.COM</a></p>
+                    </div>
+                    <div class="box inner-txt5">
+                        <p><a href="#none">LEGALS</a></p>
+                        <p><a href="#none">HELP</a></p>
+                        <p><a href="#none">Q&A</a></p>
+                        <p><a href="#none">ORDER TRACKING</a></p>
+                    </div>
+                    <div class="box inner-txt6">
+                        <p><a href="#none">FACEBOOK</a></p>
+                        <p><a href="#none">INSTAGRAM</a></p>
+                    </div>         
+                </div>
+            </div>
+        </div>
+        <!-- 상단버튼 -->
+        <div class="top-btn">D</div>
+    </div>
+</body>
+</html>
