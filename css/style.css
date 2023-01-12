@@ -1065,4 +1065,35 @@
             cursor: pointer;
         }
     }
+
+    @media (max-width: 380px){
+        .sec-1 .sub-txt{
+            font-size: 1.1rem;
+        }
+
+        .sec-1 .sub-txt2 {
+            width: 83%;
+        }
+
+        .sec-2 .main-txt.ourstory{
+            font-size: 2rem;
+        }
+
+        .sec-2 .txt-box .sub-txt {
+            font-size: 1rem;
+        }
+
+        .sec-3 .bg {
+            height: auto;
+        }
+
+        .sec-3 .sub-txt{
+            font-size: 1rem;
+        }
+        
+        .top-btn {
+            font-size: 3rem;
+        }
+            
+    }
 }
