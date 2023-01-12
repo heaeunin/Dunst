@@ -1017,13 +1017,6 @@
             font-size: 1.2rem;
         }
 
-        .sec-3 .bg {
-            background: url(../img/banner-5.jpg) no-repeat center;
-            background-size: cover;
-            background-attachment: fixed;
-            height: 50vh;
-        }
-
         .sec-4 .main-txt {
             display: none;
         }
@@ -1102,12 +1095,6 @@
 
         .sec-2 .txt-box .sub-txt {
             font-size: 1rem;
-        }
-
-        .sec-3 .bg {
-            background: url(../img/banner-5.jpg) no-repeat center;
-            background-size: cover;
-            background-attachment: fixed;
         }
 
         .sec-3 .sub-txt{
