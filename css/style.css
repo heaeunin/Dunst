@@ -1099,7 +1099,11 @@
         }
         
         .top-btn {
-            font-size: 3rem;
+            font-size: 2rem;
+            position: fixed;
+            right: 35px;
+            bottom: 60px;
+            z-index: 999999;
         }
             
     }
