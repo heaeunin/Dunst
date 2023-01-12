@@ -210,7 +210,7 @@
 }
 
 .sec-1 .main-txt{
-    font-size: 6rem;
+    font-size: 5.8rem;
     letter-spacing: 1.5;
     font-family: 'Livvic', sans-serif;
     font-weight: 500;
@@ -232,7 +232,6 @@
     line-height: 1.3;
     margin-top: 80px;
     margin-bottom: 90px;
-    margin-left: -70px;
 }
 
 .sec-1 .sub-txt2{
@@ -486,7 +485,7 @@
 }
 
 /* 미디어쿼리 */
-/* @media (max-width: 1800px){
+@media (max-width: 1800px){
     .sec-2 .txt-box .sub-txt{
         font-size: 2.4rem;
         font-family: 'Junge', serif;
@@ -496,17 +495,34 @@
         padding: 0 0 50px 35px;
         font-style: italic;
     }
-} */
+}
 
 @media (max-width: 1400px){
-    .sec-1 .main-txt{
-        font-size: 5rem;
-        letter-spacing: 1.5;
-        font-family: 'Livvic', sans-serif;
-        font-weight: 500;
-        margin-bottom: 10px;
-        margin-left: -150px;
+    .sec-1 .left {
+        padding: 0;
+        margin-top: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
     }
+
+    .sec-1 .main-txt{
+        font-size: 4rem;
+    }
+
+    .sec-1 .sub-txt {
+        font-size: 1.6em;
+        margin-left: 4px;
+    }
+
+    .sec-1 .sub-txt1 {
+        font-size: 1.6rem;
+        margin-top: 80px;
+        margin-left: 10px;
+        width: 83%;
+    }
+
     .sec-2 .txt-box .sub-txt{
         font-size: 2rem;
         font-family: 'Junge', serif;
@@ -538,7 +554,7 @@
 
     .sec-5 .footer-txt1 a{
         display: inline-block;
-        margin: 70px;
+        margin: 70px 25px 23px 25px;
     }
 
     .sec-5 .inst-box{
@@ -547,7 +563,7 @@
         width: 100%;
         justify-content: center;;
     }
-    
+
     .footer .container{
         width: 100%;
         /* height: auto; */
@@ -576,12 +592,12 @@
 }
 
 @media (max-width: 1000px){
-    #hamburger{
+    #hamburger {
         display: block;
         z-index: 9999;
         position: relative;
-        width: 30px;
-        height: 16px;
+        width: 31px;
+        height: 10px;
     }
 
     #hamburger span{
@@ -598,18 +614,18 @@
         background-color: #262320;
     }
 
-    #hamburger span:nth-child(1){
+    #hamburger span:nth-child(1) {
+        top: 20px;
+        left: 15px;
+    }
+
+    #hamburger span:nth-child(2) {
         top: 10px;
         left: 15px;
     }
 
-    #hamburger span:nth-child(2){
-        top: 0;
-        left: 15px;
-    }
-
-    #hamburger span:nth-child(3){
-        top: 20px;
+    #hamburger span:nth-child(3) {
+        top: 30px;
         left: 15px;
     }
 
@@ -652,6 +668,13 @@
         transform: translateY(0);
     }
 
+    .sec-1 .left {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
    .sec-1 .main-txt{
         font-size: 3.5rem;
         /* margin-bottom: 5px; */
@@ -667,28 +690,19 @@
 
     .sec-1 .sub-txt1{
         font-size: 1.3rem;
-        font-weight: 300;
-        font-family: 'Jost', sans-serif;
         line-height: 1.3;
-        margin-top: 80px;
-        margin-bottom: 90px;
-        margin-left: -70px;
+        margin-top: 30px;
+        margin-left: 10px;
     }
 
     .sec-1 .sub-txt2{
         font-size: 1.1rem;
-        font-weight: 400;
-        font-family: 'Jost', sans-serif;
         margin-right: 50px;
     }         
 
     .sec-2 .main-txt.ourstory {
-        color: #363333;
-        font-size: 1.1rem;
-        font-family: 'Livvic', sans-serif;
-        font-weight: 500;
-        display: flex;
-        justify-content: flex-end;
+        font-size: 2rem;
+        margin: 75px;
     }
 
     .sec-4 .container{
@@ -779,12 +793,9 @@
         flex-direction: column;
     }
 
-    .sec-1 .left{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .sec-1 .left {
+        padding: 95px 30px;
+        margin-top: 0;
         cursor: pointer;
     }
 
@@ -798,14 +809,16 @@
     }
 
     .sec-1 .main-txt{
-        font-size: 5.5rem;
+        font-size: 2.8rem;
         margin: 0 auto;
         margin-bottom: 20px;
+        width: 100%;
     }
 
     .sec-1 .sub-txt{
-        font-size: 1.9rem;
+        font-size: 1.7rem;
         margin: 0 auto;
+        width: 100%;
     }
 
     .sec-1 .sub-txt1{
@@ -840,6 +853,7 @@
         display: flex;
         justify-content: flex-end;
         margin-bottom: 50px;
+        margin-top: 65px;
     }
 
     .sec-4 .cell,
@@ -856,18 +870,26 @@
 
     .sec-4 .cell img {
         width: 100%;
-        height: 106%;
+        height: 100%;
+        margin-top: -44px;
+    }
+
+    .sec-4 .main-txt{
+        display: none;
     }
 
     .sec-5 .footer-txt1 {
         font-size: 2.1rem;
         font-weight: 500;
         font-family: 'Jost', sans-serif;
-        margin-bottom: 240px;
     }
 
     .sec-5 .inst-box {
         width: 100%;
+    }
+
+    .sec-5 .con-box img {
+        transition: 0.5s;
     }
 
     .footer .footer-t .box {
@@ -890,7 +912,35 @@
         cursor: pointer;
     }
 
+    .sec-5 .footer-txt1 a {
+        display: inline-block;
+        margin: 23px 25px 23px 58px;
+    }
+
     @media (max-width: 500px){
+        #hamburger {
+            display: block;
+            z-index: 9999;
+            position: relative;
+            width: 31px;
+            height: 10px;
+        }
+
+        #hamburger span:nth-child(1) {
+            top: 20px;
+            left: 15px;
+        }
+
+        #hamburger span:nth-child(2) {
+            top: 10px;
+            left: 15px;
+        }
+
+        #hamburger span:nth-child(3) {
+            top: 30px;
+            left: 15px;
+        }
+
         .header-area .logo{
             width: 164px;
             height: 24px;
@@ -904,9 +954,9 @@
         .sec-1 .left{
             width: 100%;
             height: 100%;
-            display: flex;
+            /* display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: center; */
             cursor: pointer;
         }
     
@@ -916,32 +966,31 @@
         }
     
         .sec-1 .txt-box{
-            width: 100%;
+            padding: 113px 36px 113px;
         }
     
         .sec-1 .main-txt{
             font-size: 2.8rem;
             margin-bottom: 20px;
-        }
-    
-        .sec-1 .sub-txt{
-            font-size: 1.3rem;
+            margin-left: 0;
         }
     
         .sec-1 .sub-txt1{
             font-size: 1.2rem;
-            font-weight: 300;
-            font-family: 'Jost', sans-serif;
-            line-height: 1.3;
-            margin: 0 auto;
             margin-top: 40px;
             margin-bottom: 40px;
+            width: 100%;
         }
     
         .sec-1 .sub-txt2{
-            width: 80%;
             font-size: 1rem;
         }  
+
+        .sec-1 .sub-txt {
+            font-size: 1.5rem;
+            margin: 0 auto;
+            margin-left: 0;
+        }
     
         .sec-2 .txt-box{
             width: 100%;
@@ -960,6 +1009,7 @@
             display: flex;
             justify-content: flex-end;
             margin-bottom: 50px;
+            margin-top: 50px;
         }
 
         .sec-4 .main-txt {
