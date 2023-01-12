@@ -1099,9 +1099,9 @@
         }
         
         .top-btn {
-            font-size: 2rem;
+            font-size: 3rem;
             position: fixed;
-            right: 35px;
+            right: 53px;
             bottom: 60px;
             z-index: 999999;
         }
