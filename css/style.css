@@ -916,6 +916,7 @@
         display: inline-block;
         margin: 23px 25px 23px 58px;
     }
+}
 
     @media (max-width: 500px){
         #hamburger {
@@ -1104,8 +1105,5 @@
             right: 53px;
             bottom: 60px;
             z-index: 999999;
-            margin-right: 5px;
-        }
-            
+        }  
     }
-}
