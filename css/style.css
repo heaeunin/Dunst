@@ -1012,6 +1012,11 @@
             margin-top: 50px;
         }
 
+        .sec-3 .sub-txt{
+            font-size: 1.2rem;
+            /* padding: 30px; */
+        }
+    
         .sec-4 .main-txt {
             display: none;
         }
@@ -1084,7 +1089,6 @@
         }
 
         .sec-3 .bg {
-            height: auto;
             background: url(../img/banner-5.jpg) no-repeat center;
             background-size: cover;
             background-attachment: fixed;
