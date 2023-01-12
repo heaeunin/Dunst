@@ -1070,6 +1070,15 @@
             margin-bottom: 3px;
             cursor: pointer;
         }
+
+        .top-btn {
+            font-size: 3rem;
+            position: fixed;
+            right: 22px;
+            bottom: 60px;
+            z-index: 999999;
+            width: 50px;
+        } 
     }
 
     @media (max-width: 380px){
@@ -1102,8 +1111,9 @@
         .top-btn {
             font-size: 3rem;
             position: fixed;
-            right: 53px;
+            right: 22px;
             bottom: 60px;
             z-index: 999999;
+            width: 50px;
         }  
     }
