@@ -1021,6 +1021,7 @@
             background: url(../img/banner-5.jpg) no-repeat center;
             background-size: cover;
             background-attachment: fixed;
+            height: 50vh;
         }
 
         .sec-4 .main-txt {
