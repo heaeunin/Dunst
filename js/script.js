@@ -9,17 +9,15 @@ $(document).ready(function(){
     
     //스와이퍼 배너
     var swiper = new Swiper(".mySwiper", {
-        scrollbar: {
-            el: ".swiper-scrollbar",
-            hide: true
-          },
-          effect: "fade",
-          loop : true,
-          speed : 2500,
-          autoplay: { //오토플레이 설정
-            delay: 1500, //딜레이 시간 설정
-            }
-      });
+      loop : false,   // 슬라이드 반복 여부
+      oopAdditionalSlides : 1,
+      autoplay: {
+        delay: 3000,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
       
       // 스와이퍼 sec-1
       var swiper = new Swiper(".secondSwiper", {
@@ -30,6 +28,22 @@ $(document).ready(function(){
         autoplay: { //오토플레이 설정
           delay: 1500, //딜레이 시간 설정
           }
+      });
+
+      // sec-4
+      var swiper = new Swiper(".mySwiper22", {
+        slidesPerView: 3,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        loop : true,
+        autoplay: { //오토플레이 설정
+          delay: 2500, //딜레이 시간 설정
+          },
+          slidesPerView: 3,
+          spaceBetween: 10,
       });
 
 
