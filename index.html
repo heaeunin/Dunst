@@ -17,7 +17,7 @@
     <title>Dunst</title>
 </head>
 <body>
-    <div id="wrap">
+    <div id="fullpage">
         <section class="section banner">
             <div class="conatiner">
                 <!-- 헤더 영역 -->
@@ -134,29 +134,39 @@
                 </div>
                 
                 <!-- 배너 슬라이드 스와이퍼 -->
-                <div class="slider-wrap swiper mySwiper">
-                    <div class="auto-slider swiper-wrapper">
-                        <div class="slider slide-1 swiper-slide"></div>
-                        <div class="slider slide-2 swiper-slide"></div>
-                        <div class="slider slide-3 swiper-slide"></div>
-                        <div class="slider slide-4 swiper-slide"></div>
-                        <div class="slider slide-5 swiper-slide"></div>
-                        <div class="slider slide-6 swiper-slide"></div>
+                <div class="mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="./img/banner-1.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/banner-2.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/banner-3.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/banner-4.jpg" alt="">
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="./img/banner-5.jpg" alt="">
+                      </div>
                     </div>
-                </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
             </div>
         </section>
 
         <!-- sec-1 -->
         <section class="section sec-1">
-            <div class="container">
+            <div class="container sec1_con">
                 <div class="sec-1 con">
-                    <div class="txt-box left">
+                    <div class="txt-box left"  data-aos="fade-right" data-aos-duration="2500">
                         <p class="main-txt">RE-EDITION</p>
                         <p class="sub-txt">Timeless Classic & Modern Uniqueness</p>
-                        <p class="sub-txt1">The value of timeless classic and vintage naver fade away,<br>
+                        <p class="sub-txt1">The value of timeless classic and vintage<br> naver fade away,
                             rather if glows through decades.<br>
-                            We unraveled these ‘briliant legacies ‘left to us solely in<br>
+                            We unraveled these ‘briliant legacies‘ <br>left to us solely in
                             Dunst way of modern uniqueness.</p>
                         <p class="sub-txt2">Created by Dunst</p>  
                     </div>        
@@ -187,8 +197,8 @@
                     <p class="main-txt ourstory">OUR STORY</p>
                     <p class="sub-txt info">
                         For a wellness lifestyle of home leisure, reavel, sports.....<br>
-                        Sportism Casual collection of Dunst capsules.<br>
-                        Simple yet comfortable, and unique style coexist.<br>
+                        Sportism Casual collection of Dunst capsules.
+                        Simple yet comfortable, and unique style coexist.
                         We developed all the processes of material, color, and artwork independently.
                     </p>
                 </div>   
@@ -216,38 +226,25 @@
         <!-- sec-4 -->
         <section class="section sec-4">
             <div class="container">
-                <p class="sec-4 main-txt ">
+                <p class="sec-4 main-txt bg">
                     Dunst ‘22 Autumn Collection
                 </p>
-                <div class="canvas">
-                    <div class="carousel box">
-                        <div class="cell" data-aos="zoom-out" data-aos-duration="1000">
-                            <img src="./img/col-7.jpg" alt="">
-                        </div>
-                        <div class="cell" data-aos="zoom-out"  data-aos-duration="1500">
-                            <img src="./img/col-3.jpg" alt="">
-                        </div>
-                        <div class="cell" data-aos="zoom-out"  data-aos-duration="2000">
-                            <img src="./img/col-1.jpg" alt="">
-                        </div>
-                        <div class="cell" data-aos="zoom-out"  data-aos-duration="2500">
-                            <img src="./img/col-9.jpg" alt="">
-                        </div>
-                        <div class="cell" data-aos="zoom-out"  data-aos-duration="3000">
-                            <img src="./img/col-8.jpg" alt="">
-                        </div>
-                        <div class="cell" data-aos="zoom-out"  data-aos-duration="3500">
-                            <img src="./img/col-5.jpg" alt="">
-                        </div>
-                        <div class="cell" data-aos="zoom-out"  data-aos-duration="4000">
-                            <img src="./img/col-10.jpg" alt="">
-                        </div>
-                        <div class="cell" data-aos="zoom-out"  data-aos-duration="4000">
-                            <img src="./img/col-11.jpg" alt="">
-                        </div>
-                    </div>
+                <div class="mySwiper22">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide"><img src="./img/col-1.jpg" alt=""></li>
+                      <li class="swiper-slide"><img src="./img/col-2.jpg" alt=""></li>
+                      <li class="swiper-slide"><img src="./img/col-3.jpg" alt=""></li>
+                      <li class="swiper-slide"><img src="./img/col-4.jpg" alt=""></li>
+                      <li class="swiper-slide"><img src="./img/col-5.jpg" alt=""></li>
+                      <li class="swiper-slide"><img src="./img/col-6.jpg" alt=""></li>
+                      <li class="swiper-slide"><img src="./img/col-7.jpg" alt=""></li>
+                      <li class="swiper-slide"><img src="./img/col-8.jpg" alt=""></li>
+                      <li class="swiper-slide"><img src="./img/col-9.jpg" alt=""></li>                   
                 </div>
-                <div class="line"></div>
+                <div class="swiper_btn">
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>    
             </div>
         </section>
 
